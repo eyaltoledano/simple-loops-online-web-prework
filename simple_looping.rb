@@ -60,6 +60,7 @@ def for_iterator(number_of_times)
 
   for counter in number_of_times.to_a do
     puts phrase
+    counter += 1
   end
 
 end
