@@ -12,11 +12,10 @@ def loop_iterator(number_of_times)
   counter = number_of_times
 
   loop counter.times do
-    phrase
+    puts phrase
     break if counter == number_of_times
     counter += 1
   end
-
 end
 
 def times_iterator(number_of_times)
