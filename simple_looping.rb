@@ -12,6 +12,7 @@ def loop_iterator(number_of_times)
 
   loop number_of_times.times do
     counter += 1
+    phrase
   end
 
 end
